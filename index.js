@@ -1,4 +1,5 @@
-#!/usr/bin/env/ node
+#!/usr/bin/env node
+
 const chalk = require('chalk')
 const clear = require('clear')
 const figlet = require('figlet')
@@ -8,8 +9,8 @@ const directoryFinder = require('./lib/directoryFinder')
 const componentCreator = require('./lib/componentCreator')
 
 clear()
-console.log(chalk.cyan(figlet.textSync('RCC', { horizontalLayout: 'full' })))
-console.log(chalk.green('React Component Creator'))
+console.log(chalk.cyan(figlet.textSync('GD RCC', { horizontalLayout: 'full' })))
+console.log(chalk.green('GD React Component Creator'))
 
 const run = async () => {
   const language = await inquirer.localeQuestionnaire()
