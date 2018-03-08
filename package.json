@@ -4,7 +4,7 @@
   "description": "A simple CLI tool for creating React components",
   "main": "index.js",
   "bin": {
-    "crc": "./index.js"
+    "create-react-component": "./index.js"
   },
   "keywords": [
     "React", "Component", "Generator", "Creator", "CLI", "GD App"
@@ -25,14 +25,8 @@
   "dependencies": {
     "chalk": "^2.3.2",
     "clear": "^0.1.0",
-    "clui": "^0.3.6",
-    "configstore": "^3.1.1",
     "figlet": "^1.2.0",
     "inquirer": "^5.1.0",
-    "minimist": "^1.2.0",
-    "touch": "^3.1.0"
-  },
-  "devDependencies": {
     "node-find-folder": "^0.1.32"
   }
 }
