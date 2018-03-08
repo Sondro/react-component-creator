@@ -1,5 +1,5 @@
 {
-  "name": "@gdomaradzki/gd-rcc",
+  "name": "gd-react-component-creator",
   "version": "1.0.0",
   "description": "A simple CLI tool for creating React components",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "crc": "./index.js"
   },
   "keywords": [
-    "React", "Component", "Generator", "Creator", "CLI"
+    "React", "Component", "Generator", "Creator", "CLI", "GD App"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
