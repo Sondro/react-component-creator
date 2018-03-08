@@ -12,9 +12,7 @@ console.log(chalk.green('React Component Creator'))
 const run = async () => {
   const language = await inquirer.localeQuestionnaire()
   const answers = await inquirer.componentCreationQuestionnaire(language)
-  const directory = await directoryFinder(answers.componentPath)
-  console.log(directory)
+  const directory = await directoryFinder(answers.componentPath, language)
 }
-
 
 run()
