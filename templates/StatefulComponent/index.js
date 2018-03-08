@@ -1,5 +1,5 @@
-const StatefulComponent = `
-import React, { Component } from 'react'
+const StatefulComponent =
+`import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
 class [component] extends Component {
