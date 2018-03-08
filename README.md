@@ -9,7 +9,7 @@ GD-RCC is a CLI made for creating React components quickly, you can choose a nam
 # follow instructions
 ```
 
-That's it! You only need to run `create-react-component` after you install (which means create react component)
+That's it! You only need to run `create-react-component` after you install!
 
 ### Languages
 GD-RCC is translated to English and BR Portuguese
