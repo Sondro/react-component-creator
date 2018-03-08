@@ -1,3 +1,4 @@
+#!/usr/bin/env/ node
 const chalk = require('chalk')
 const clear = require('clear')
 const figlet = require('figlet')
@@ -14,7 +15,7 @@ const run = async () => {
   const language = await inquirer.localeQuestionnaire()
   const answers = await inquirer.componentCreationQuestionnaire(language)
   const directory = await directoryFinder.finder(answers.componentPath, language)
-  await componentCreator(answers.componentName, answers.componentPath, language)
+  await componentCreator(answers, language)
 }
 
 run()
