@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A simple CLI tool for creating React components",
   "main": "index.js",
+  "bin": {
+    "crc": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
