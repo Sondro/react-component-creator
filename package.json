@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/gdomaradzki/react-component-creator#readme",
   "dependencies": {
-    "chalk": "^4.0.0",
+    "chalk": "^5.0.0",
     "clear": "^0.1.0",
     "figlet": "^1.2.0",
     "inquirer": "^5.1.0",
